@@ -5,7 +5,7 @@ import scrapy
 class ToScrapeSpider(scrapy.Spider):
     name = "scrapso"
     start_urls = [
-        'https://stackoverflow.com/jobs?sort=p&pg=122',
+        'https://stackoverflow.com/jobs?sort=p&pg=1',
     ]
 
     def parse(self, response):
